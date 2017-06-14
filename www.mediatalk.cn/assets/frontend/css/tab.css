@@ -1,0 +1,31 @@
+#con {
+	WIDTH:850px; 
+}
+#tags {width:848px;height:50px; background:#F4F4F4; border-left:1px solid #F4F4F4; padding-left:1px;
+}
+#tags LI {
+	FLOAT: left;HEIGHT:48px; line-height:48px;FONT-SIZE: 14px; 
+}
+#tags LI A {
+	FONT-SIZE:14px;  FLOAT: left;  COLOR: #555; LINE-HEIGHT:48px;padding:0 40px; HEIGHT: 48px;  TEXT-DECORATION: none
+}
+#tags LI.emptyTag {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left;WIDTH: 4px;
+}
+#tags LI.selectTag {
+	 HEIGHT:50px; background:#fff; FLOAT: left;
+}
+#tags LI.selectTag A {
+	COLOR: #FF2A2A; LINE-HEIGHT:48px; HEIGHT: 48px;FLOAT: left;border-top:2px solid #D83F2A;TEXT-DECORATION: none
+}
+#tagContent {
+	
+}
+.tagContent {
+	DISPLAY: none;WIDTH: 850px; COLOR: #474747; margin-top:20px;
+    font-size: 14px;
+}
+#tagContent DIV.selectTag {
+	DISPLAY: block
+}
+.xian{ margin:10px 0; width:1px; height:30px; background:#DBDBDB; float:left}
